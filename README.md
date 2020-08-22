@@ -17,4 +17,6 @@ In this assignment, I have built an interactive dashboard to explore the [Belly 
 * Displays the sample metadata, i.e. an individual's demographic information 
   * Each key-value pair from the sample metadata
 * Updates all the plots any time a new sample is selected 
+### Deployment
+* The dashboard is available in following GitHub page: https://ionguha.github.io/Plotly-challenge/Belly_Button_Diversity/index.html
 
