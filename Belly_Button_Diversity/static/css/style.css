@@ -1,0 +1,90 @@
+/* Customizing body */
+body{
+  font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', sans-serif;
+  font-size: 1em;
+  font-weight:bold;
+  background-color: white;
+  margin: auto;
+  padding:relative;
+}
+/* Customizing paragraph */
+p{
+  color:white;
+  font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', sans-serif;
+  text-align:justify;
+  font-size: 1.1em;
+  line-height: 200%;
+}
+
+/* Customizing header 2 */
+h2{
+  color:white;
+  font-size:2em;
+  text-align:left;
+}
+/* Customizing header 5 */
+h5{
+  color:white;
+  font-size:1.5em;
+  font-weight: bold;
+  text-align:left;
+}
+
+/* Customizing Jumbotron for Landing Page */
+.jumbotron{
+  content:"";
+  display: block;
+  padding: 10px;
+  background-image: url(https://pbs.twimg.com/media/B-iLI1BCUAA_5m6.jpg:large);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:white;
+  width:100%;
+  height:100%;
+  opacity:1.0;
+  z-index:-1;
+}
+/* Customizing hover */
+li a {
+  color: #fff;
+}
+li:hover,
+li:focus-within {
+    background: orange;
+    cursor: pointer;
+}
+li:focus-within a {
+  outline: none;
+}
+ul li ul {
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+/* Customizing text */
+.my-text{
+  color: rgb(3, 63, 63);
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em; 
+}
